@@ -1,0 +1,6 @@
+O que acontece quando 1 e 1 no latch set e reset?
+
+R: Uma condiição indeterminada ou inválida ocorrerá, já que, ambas as saídas
+Q e ̅Q podem ser "forçadas" a 0, o que é impossível, visto que, ̅Q deve sempre
+oposto de Q. Portanto, essa indedeterminação pode levar a um comportamento
+errado do circuito. 
